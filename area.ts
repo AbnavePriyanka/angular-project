@@ -3,7 +3,7 @@ function Area(radious, PI)
   var area;
   if (PI == undefined)
   {
-   PI = 3.14;
+   PI = 3.14
   }
   area = radious * radious * PI;
   return area;
